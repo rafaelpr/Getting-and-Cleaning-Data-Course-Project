@@ -22,46 +22,46 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 These signals were used to estimate variables of the feature vector for each pattern: 'xyz' is used to denote 3-axial signals in the X, Y and Z directions. The set of variables that were estimated from these signals are mean: Mean value and std: Standard deviation
 
-tbodyaccmeanx
-tbodyaccmeany
-tbodyaccmeanz
-tbodyaccstdx
-tbodyaccstdy
-tbodyaccstdz
-tgravityaccmeanx
-tgravityaccmeany
-tgravityaccmeanz
-tgravityaccstdx
-tgravityaccstdy
-tgravityaccstdz
-tbodyaccjerkmeanx
-tbodyaccjerkmeany
-tbodyaccjerkmeanz
-tbodyaccjerkstdx
-tbodyaccjerkstdy
-tbodyaccjerkstdz
-tbodygyromeanx
-tbodygyromeany
-tbodygyromeanz
-tbodygyrostdx
-tbodygyrostdy
-tbodygyrostdz
-tbodygyrojerkmeanx
-tbodygyrojerkmeany
-tbodygyrojerkmeanz
-tbodygyrojerkstdx
-tbodygyrojerkstdy
-tbodygyrojerkstdz
-tbodyaccmagmean
-tbodyaccmagstd
-tgravityaccmagmean
-tgravityaccmagstd
-tbodyaccjerkmagmean
-tbodyaccjerkmagstd
-tbodygyromagmean
-tbodygyromagstd
-tbodygyrojerkmagmean
-tbodygyrojerkmagstd
++ tbodyaccmeanx
++ tbodyaccmeany
++ tbodyaccmeanz
++ tbodyaccstdx
++ tbodyaccstdy
++ tbodyaccstdz
++ tgravityaccmeanx
++ tgravityaccmeany
++ tgravityaccmeanz
++ tgravityaccstdx
++ tgravityaccstdy
++ tgravityaccstdz
++ tbodyaccjerkmeanx
++ tbodyaccjerkmeany
++ tbodyaccjerkmeanz
++ tbodyaccjerkstdx
++ tbodyaccjerkstdy
++ tbodyaccjerkstdz
++ tbodygyromeanx
++ tbodygyromeany
++ tbodygyromeanz
++ tbodygyrostdx
++ tbodygyrostdy
++ tbodygyrostdz
++ tbodygyrojerkmeanx
++ tbodygyrojerkmeany
++ tbodygyrojerkmeanz
++ tbodygyrojerkstdx
++ tbodygyrojerkstdy
++ tbodygyrojerkstdz
++ tbodyaccmagmean
++ tbodyaccmagstd
++ tgravityaccmagmean
++ tgravityaccmagstd
++ tbodyaccjerkmagmean
++ tbodyaccjerkmagstd
++ tbodygyromagmean
++ tbodygyromagstd
++ tbodygyrojerkmagmean
++ tbodygyrojerkmagstd
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
@@ -105,8 +105,8 @@ fbodybodygyrojerkmagmean
 fbodybodygyrojerkmagstd
 fbodybodygyrojerkmagmeanfreq
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle variable:
-
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle variables:
+---
 angletbodyaccmeangravity
 angletbodyaccjerkmeangravitymean
 angletbodygyromeangravitymean
@@ -114,5 +114,5 @@ angletbodygyrojerkmeangravitymean
 anglexgravitymean
 angleygravitymean
 anglezgravitymean
-
+---
 * These features description relies mainly on Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
