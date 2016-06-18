@@ -1,8 +1,7 @@
 ## Getting-and-Cleaning-Data-Course-Project
 This repo contains the results for the Getting and Cleaning Data Course Project from Coursera and Johns Hopkins University.
-
-### Simply execute "run_analysis.R". 
-The script does the following:
+Simply execute "run_analysis.R". 
+###The script does the following:
 ---
 1. Download and unzip original data from the web, if it was not found in the working directory
 2. Get the activity labels
