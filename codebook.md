@@ -1,9 +1,11 @@
 
 ### Identifiers
 
-##### subject - The ID of the test subject
+##### subject
++ The ID of the test subject
 
-##### Activity Label - The type of activity performed when the corresponding measurements were taken
+##### activity
++ The type of activity performed when the corresponding measurements were taken
 ---
 + WALKING : subject was walking during the test
 + WALKING_UPSTAIRS : subject was walking up a staircase during the test
