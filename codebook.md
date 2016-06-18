@@ -5,8 +5,9 @@
 + The ID of the test subject
 
 ##### activity
-+ The type of activity performed when the corresponding measurements were taken
 ---
+Type of activity performed when the corresponding measurements were taken
+
 + WALKING : subject was walking during the test
 + WALKING_UPSTAIRS : subject was walking up a staircase during the test
 + WALKING_DOWNSTAIRS : subject was walking down a staircase during the test
@@ -14,7 +15,7 @@
 + STANDING : subject was standing during the test
 + LAYING : subject was laying down during the test
 
-##### Feature Selection†
+### Feature Selection†
 ---
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tbodyaccxyz and tgravityaccxyz) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
