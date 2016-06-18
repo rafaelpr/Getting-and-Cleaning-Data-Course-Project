@@ -1,5 +1,5 @@
 ### Getting-and-Cleaning-Data-Course-Project
-This repo contains the datasets, script and codebook for the Getting and Cleaning Data Course Final Project from Coursera and Johns Hopkins University. Using data linked to from the course website represent data collected from the accelerometers, the purpose of this project is to demonstrate my ability to collect, work with, and clean a data set.
+This repo contains the datasets, script and codebook for the Getting and Cleaning Data Course Final Project from Coursera and Johns Hopkins University. Using data collected from the accelerometers from the Samsung Galaxy S smartphone, the purpose of this project is to demonstrate my ability to collect, work with, and clean a data set.
 
 #### The script `run_analysis.R` does the following:
 ---
