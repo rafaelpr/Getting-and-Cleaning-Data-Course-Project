@@ -16,5 +16,5 @@ Using data collected from the accelerometers from the Samsung Galaxy S smartphon
 
 #### Outputs
 ---
-* Intermediary result `mean_std_dataset.txt`, which contains the mean and standard deviation for each measurement.
-* Final result `tidy_dateset.txt`, which contains the average of each measurement for each activity and each subject.
+* Intermediary result `mean_std_dataset.csv`, which contains the mean and standard deviation for each measurement.
+* Final result `tidy_dateset.csv`, which contains the average of each measurement for each activity and each subject.
