@@ -2,7 +2,7 @@
 This repo contains the datasets, script and codebook for the Getting and Cleaning Data Course Final Project from Coursera and Johns Hopkins University. 
 Using data collected from the accelerometers from the Samsung Galaxy S smartphone, the purpose of this project is to demonstrate my ability to collect, work with, and clean a data set.
 
-#### The script `run_analysis.R` does the following:
+#### The script `run_analysis.R` do the following:
 ---
 1. Download and unzip original data from the web, if it was not found in the working directory
 2. Get the activity labels
