@@ -21,7 +21,7 @@ The features selected for this database come from the accelerometer and gyroscop
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tbodyaccjerkxyz and tbodygyrojerkxyz). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tbodyaccmag, tgravityaccmag, tbodyaccjerkmag, tbodygyromag, tbodygyrojerkmag).  
 
-These signals were used to estimate variables of the feature vector for each pattern: 'xyz' is used to denote 3-axial signals in the X, Y and Z directions. The set of variables that were estimated from these signals are mean: Mean value and std: Standard deviation
+These signals were used to estimate variables of the feature vector for each pattern: 'xyz' is used to denote 3-axial signals in the X, Y and Z directions. The set of variables that were estimated from these signals are mean: Mean value and std: Standard deviation. Features are normalized and bounded within [-1,1].
 
 + tbodyaccmeanx
 + tbodyaccmeany
